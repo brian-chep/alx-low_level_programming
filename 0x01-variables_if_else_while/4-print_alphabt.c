@@ -11,7 +11,7 @@ int main(void)
 	int alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		if ((alpha == 'A') && (alpha == 'Z'))
+		if ((alpha != 'q') && (alpha != 'e'))
 			putchar(alpha);
 	putchar('\n');
 	return (0);
