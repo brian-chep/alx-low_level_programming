@@ -16,6 +16,6 @@ int main(void)
 	putchar('\n');
 	for (beta = 'A'; beta <= 'Z'; beta++)
 		putchar(beta);
-	putchar(\n);
+	putchar('\n');
 	return (0);
 }
