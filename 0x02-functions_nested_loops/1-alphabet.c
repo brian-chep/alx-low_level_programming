@@ -7,6 +7,9 @@
  *
  */
 
+
+// this prints alphabets 'a to z'
+
 void print_alphabet(void)
 {
 	char c;
