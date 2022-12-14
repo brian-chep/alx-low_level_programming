@@ -3,9 +3,7 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
- *
- * print aphabet in lower case
+ * print_alphabet
  *
  */
 
