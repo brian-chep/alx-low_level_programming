@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
  * Description: 'print_alphabet prints alphabet in lowercase'
  *
- * Return: Always 0
+ * Return void
  */
 
 void print_alphabet(void)
