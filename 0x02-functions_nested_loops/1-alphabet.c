@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * This function prints alphabet in lower cases
  *
- * Return (0); Success
+ * Return Success
  *
  */
-
-
-// this prints alphabets 'a to z'
 
 void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
-		printf("%c", c);
+	printf("%c", c);
 	printf("\n");
 }
