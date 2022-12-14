@@ -7,6 +7,7 @@
  *
  */
 
+//print_alphabet prints in lowercase
 void print_alphabet(void)
 {
 	char c;
