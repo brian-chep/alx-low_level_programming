@@ -5,7 +5,7 @@
  *
  * @print_alphabet: print_alphabet prints alphabet in lowercase
  *
- * print alphabet in lowercase
+ * Return: aLWAYS 0
  */
 
 void print_alphabet(void)
