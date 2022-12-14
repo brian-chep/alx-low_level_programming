@@ -8,8 +8,7 @@
  * print alphabet in lowercase
  */
 
-/* print_alphabet prints in lowercase */
-void print_alphabet(void)
+/* print_alphabet prints in lowercase */void print_alphabet(void)
 {
 /* prints in lower case*/
 	char c;
