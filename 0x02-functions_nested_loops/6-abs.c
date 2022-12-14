@@ -5,7 +5,7 @@
  *
  * to be calculated
  *
- * Return
+ * Return: Always success
  *
  */
 
