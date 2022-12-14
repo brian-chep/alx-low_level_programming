@@ -8,9 +8,8 @@
  * print alphabet in lowercase
  */
 
-/* print_alphabet prints in lowercase */void print_alphabet(void)
+void print_alphabet(void)/* print_alphabet prints in lowercase */
 {
-/* prints in lower case*/
 	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
