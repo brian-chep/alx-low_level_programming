@@ -5,6 +5,8 @@
  *
  * Return: Always 0.
  *
+ * print aphabet in lower case
+ *
  */
 
 void print_alphabet(void)
