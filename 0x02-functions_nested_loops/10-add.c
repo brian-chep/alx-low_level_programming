@@ -3,7 +3,11 @@
 /**
  * add - print the  sum of two integer
  *
- * Return Always
+ * @n: first operand
+ *
+ * @n1: second operand
+ *
+ * Return: int
  */
 
 int add(int n, int n1)
