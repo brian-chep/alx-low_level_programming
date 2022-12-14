@@ -1,18 +1,21 @@
-#include <stdio.h>
+nclude "main.h"
 
 /**
- * main - check the code
+ * _islower - check if a character is a lowercase
  *
- * Description: print_alphabet prints alphabet in lowercase
+ * @c: the character to be check
  *
- * print alphabet in lowercase
+ * Return: int
  */
 
 int _islower(int c)
 {
-	int c;
+	char l;
 
-	for (c = 'a'; c <= 'z'; ++c)
-	printf("%d", c);
-	printf("\n");
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		if (l == c)
+			return (1);
+	}
+	return (0);
 }
