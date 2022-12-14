@@ -3,7 +3,7 @@
 /**
  * _abs - calculate the absoluten of a number
  *
- * to be calculated
+ * n to be calculated
  *
  * Return: Always success
  *
