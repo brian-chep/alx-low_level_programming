@@ -5,6 +5,8 @@
  *
  * print_alphabet prints alphabet in lowercase
  *
+ * print alphabet in lowercase
+ *
  */
 
 /* print_alphabet prints in lowercase */
