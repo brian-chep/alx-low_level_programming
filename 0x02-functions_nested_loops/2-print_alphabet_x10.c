@@ -6,10 +6,10 @@
  * Return void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i, j, s = 26;
-	
+
 	char l[] = "abcdefghijklmnopqrstuvwxyz\n";
 
 	for (i = 0; i < 10; i++)
