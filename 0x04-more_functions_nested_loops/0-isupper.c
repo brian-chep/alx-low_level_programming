@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * main - check the code
@@ -6,16 +7,14 @@
  * Return: Always 0
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	if (isupper(c))
+	if ((isupper(c))==1)
 	{
-		printf("The character is upper case");
 		return (1);
 	}
 	else
 	{
-		printf("the character is not in upper case");
 		return (0);
 	}
 
