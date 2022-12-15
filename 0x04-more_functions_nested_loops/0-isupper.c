@@ -10,12 +10,12 @@ int _isupper(int c);
 {
 	if (isupper(c))
 	{
-		_putchar("The character is upper case");
+		printf("The character is upper case");
 		return (1);
 	}
 	else
 	{
-		_putchar("the character is not in upper case");
+		printf("the character is not in upper case");
 		return (0);
 	}
 
