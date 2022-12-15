@@ -8,12 +8,15 @@
 
 void print_alphabet(void)
 {
-	fora()
+	int b;
+
+	for(b = 0; b <= 10; ++b)
 	{
 	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 	printf("%c", c);
+	}
 	printf("\n");
 	}
 }
