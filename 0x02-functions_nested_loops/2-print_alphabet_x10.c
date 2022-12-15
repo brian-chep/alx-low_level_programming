@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints alphabet in lowercase
+ * print_alphabet_x10 - prints all characters 10 times
  *
- * Return void
+ * Return: Nothing
+ *
  */
 
 void print_alphabet_x10(void)
@@ -18,10 +19,9 @@ void print_alphabet_x10(void)
 		{
 			if (i == 9 && j == 26)
 				break;
-				_putchar(l[j]);
+			_putchar(l[j]);
 		}
 	}
-	_putchar("\n");
-	return;
 
-}
+	_putchar('\n');
+	return;
