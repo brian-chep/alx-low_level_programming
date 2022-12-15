@@ -8,15 +8,20 @@
 
 void print_alphabet(void)
 {
-	int b;
+	int i, j, s = 26;
+	
+	char l[] = "abcdefghijklmnopqrstuvwxyz\n";
 
-	for (b = 0; b <= 10; ++b)
+	for (i = 0; i <= 10; i++)
 	{
-	char c;
-
-	for (c = 'a'; c <= 'z'; ++c)
-	_putchar("%c", c);
+		for (j = 0; j <= s; j++)
+		{
+			if (i == 9 && j == 26)
+				break;
+				_putchar(l[j]);
+		}
 	}
-	_putchat("\n");
+	_putchar("\n");
+	return;
 
 }
