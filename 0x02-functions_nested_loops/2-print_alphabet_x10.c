@@ -10,7 +10,7 @@ void print_alphabet(void)
 {
 	int b;
 
-	for(b = 0; b <= 10; ++b)
+	for (b = 0; b <= 10; ++b)
 	{
 	char c;
 
@@ -18,5 +18,5 @@ void print_alphabet(void)
 	printf("%c", c);
 	}
 	printf("\n");
-	}
+
 }
