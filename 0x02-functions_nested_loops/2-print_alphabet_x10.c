@@ -12,7 +12,7 @@ void print_alphabet(void)
 	
 	char l[] = "abcdefghijklmnopqrstuvwxyz\n";
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j <= s; j++)
 		{
