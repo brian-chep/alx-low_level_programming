@@ -26,6 +26,6 @@ void times_table(void)
 
 			_putchar('0' + b % 10);
 		}
-		printf('\n');
+		_putchar('\n');
 	}
 }
