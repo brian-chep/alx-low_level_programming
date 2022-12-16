@@ -14,7 +14,7 @@ int _isupper(int c)
 
 	for (a = 'A'; a <= 'Z'; a++)
 	{
-		if (c == 1)
+		if (c == a)
 			return (1);
 	}
 
