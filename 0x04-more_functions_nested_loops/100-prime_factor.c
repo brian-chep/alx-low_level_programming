@@ -27,5 +27,5 @@ int main(void)
 		}
 	}
 	printf("%ld\n", p);
-	return(0);
+	return (0);
 }
