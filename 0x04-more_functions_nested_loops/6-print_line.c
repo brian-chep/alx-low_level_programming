@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line
+ * print_line - prints a straight line
  *
- * @n
+ * @n: int
  *
- * Return:
+ * Return: Nothing
  */
 
 void print_line(int n)
