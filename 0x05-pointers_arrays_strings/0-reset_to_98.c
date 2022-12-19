@@ -2,7 +2,7 @@
 
 /**
  * main code
- * reset_to_98
+ * reset_to_98; changes pointer value to 98
  *
  * @n: parameter
  *
