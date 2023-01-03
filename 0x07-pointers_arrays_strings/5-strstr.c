@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * _strstr - locates a substring
  * @haystack: string to search
  * @needle: target substring
  * Return: pointer to index of string at first occurence of whole substring
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
@@ -25,8 +23,7 @@ char *_strstr(char *haystack, char *needle)
 					return (haystack);
 
 				i++;
-			}
-			while (haystack[i] == needle[i])
+			} while (haystack[i] == needle[i]);
 		}
 		haystack++;
 	}
