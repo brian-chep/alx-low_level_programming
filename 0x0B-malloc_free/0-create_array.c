@@ -9,7 +9,7 @@
  * @c: fill array values with this char
  * Return: pointer to array
  */
- 
+
 char *create_array(unsigned int size, char c)
 {
 	char *arr;
